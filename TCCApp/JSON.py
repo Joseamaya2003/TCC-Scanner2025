@@ -5,7 +5,7 @@ from datetime import datetime
 # Define the folder path directly using the absolute path provided by the user.
 # This ensures the script looks for the folder at the exact location,
 # regardless of where the Python script itself is executed.
-folder_path = "/Users/jamaya/Downloads/TCCapp-main/TCCApp/scan/lynis-report"
+folder_path = "/shared"
 
 def categorize_lynis_data(file_content, filename=""):
     """
