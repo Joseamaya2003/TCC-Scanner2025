@@ -15,6 +15,7 @@ echo "[INFO] running HTML formatter..."
 python3 /HTML.py 
 
 cd /shared
+mkdir -p reports
 mv lynis_security_report.html reports/lynis_security_report_${DATE}.html
 cd reports/
 
